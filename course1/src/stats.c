@@ -42,20 +42,26 @@ void main() {
 	median=find_median(test, SIZE);
 	max=find_maximum(test, SIZE);
 	min=find_minimum(test, SIZE);
+#ifdef PRINT
 	print_statistics(min,max,mean,median);
+#endif
 }
 
 /* Add other Implementation File Code Here */
 void print_statistics(int min, int max, int mean, int median){
-	printf("Minimum=%d\n", min);
-	printf("Maximum=%d\n", max);
-	printf("Mean=%d\n", mean);
-	printf("Median=%d\n",median);
+#ifdef VERBOSE
+	PRINTF("Minimum=%d\n", min);
+	PRINTF("Maximum=%d\n", max);
+	PRINTF("Mean=%d\n", mean);
+	PRINTF("Median=%d\n",median);
+#endif
 }
 void print_array(unsigned char *test, int size){
 	int i=0;
 	for(i;i<size;i++) {
-		printf("test[%d]=%d\n",i,test[i]);
+#ifdef VERBOSE
+		PRINTF("test[%d]=%d\n",i,test[i]);
+#endif
 	}
 }
 void sort_array(unsigned char test[], int size){

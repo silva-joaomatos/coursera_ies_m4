@@ -10,7 +10,7 @@
  *****************************************************************************/
 /**
  * @file main.c
- * @brief Main entry point to the C1M2 Assessment
+ * @brief Main entry point to the C1M4 Assessment
  *
  * This file contains the main code for the C1M2 assesment. Students
  * are not to change any of the code, they are instead supposed to compile
@@ -30,7 +30,9 @@ char buffer[MAX_LENGTH];
 int main(void) {
   unsigned int i;
   char value;
-
+#ifdef COURSE1
+  course1();
+#endif
   /* Code below does some arbitrary memory Reads & writes */
   clear_all(buffer, MAX_LENGTH);
   set_all( ( buffer + 8 ), 43, 2); 
