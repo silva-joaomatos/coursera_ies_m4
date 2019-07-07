@@ -47,7 +47,7 @@ ifeq ($(PLATFORM),MSP432)
 	CPU = cortex-m4
 	MODE = thumb
 	LINKER_FILE = msp432p401r.lds
-	LDFLAGS = -Wl,-Map=c1m2.map -T../$(LINKER_FILE) $(INCLUDES)
+	LDFLAGS = -Wl,-Map=c1m4.map -T$(LINKER_FILE) $(INCLUDES)
 	CPPFLAGS = -DMSP432 -MD
 	SPECS = nosys.specs
 	ARCH = armv7e-m
@@ -78,11 +78,11 @@ compile-all: $(SOURCES)
 	$(CC) $(SOURCES) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -c
 
 .PHONY: build
-build: c1m2.out
-c1m2.out: $(OBJS)
+build: c1m4.out
+c1m4.out: $(OBJS)
 	$(CC) $(OBJS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -o $@
-	size c1m2.out
+	size c1m4.out
 
 .PHONY: clean
 clean:
-	rm -f  *.asm *.i *.d *.map *.o *.out
+	rm -f  src/*.asm src/*.i src/*.d src/*.map src/*.o src/*.out

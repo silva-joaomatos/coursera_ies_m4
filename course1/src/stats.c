@@ -24,7 +24,7 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-void main() {
+void main_stats() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
@@ -33,16 +33,16 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  int min =0;int max =0; int mean=0; int median=0;
+  //int min =0;int max =0; int mean=0; int median=0;
   /* Statistics and Printing Functions Go Here */
 	print_array(test, SIZE); //print unsorted
 	sort_array(test, SIZE); 
 	print_array(test, SIZE); //print sorted for debug
-	mean= find_mean(test, SIZE);
-	median=find_median(test, SIZE);
-	max=find_maximum(test, SIZE);
-	min=find_minimum(test, SIZE);
-#ifdef PRINT
+	find_mean(test, SIZE);
+	find_median(test, SIZE);
+	find_maximum(test, SIZE);
+	find_minimum(test, SIZE);
+#ifdef VERBOSE
 	print_statistics(min,max,mean,median);
 #endif
 }
@@ -57,15 +57,17 @@ void print_statistics(int min, int max, int mean, int median){
 #endif
 }
 void print_array(unsigned char *test, int size){
-	int i=0;
-	for(i;i<size;i++) {
 #ifdef VERBOSE
+    int i=0;
+	for(i;i<size;i++) {
+
 		PRINTF("test[%d]=%d\n",i,test[i]);
-#endif
+
 	}
+#endif
 }
 void sort_array(unsigned char test[], int size){
-	int i=0; int j=0; unsigned char tmp=0; 
+	 unsigned char tmp=0; 
 	for (int i = 0; i < size; i++){
 		for (int j = 0; j < size; j++) {
 			if (test[j] > test[i]) {
@@ -84,8 +86,8 @@ int find_median(unsigned char *sorted, int size){
 	}	
 }
 int find_mean(unsigned char *test, int size){
-	int i=0;int sum=0;
-	for(i; i<size; i++){
+	int sum=0;
+	for(int i=0; i<size; i++){
 		sum+=test[i];
 	}
 	return (sum/size);

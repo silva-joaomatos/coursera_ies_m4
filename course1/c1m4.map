@@ -1,0 +1,899 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+                              ./src/memory.o (malloc)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o) (_malloc_r)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o) (_sbrk_r)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o) (_free_r)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o) (errno)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o) (_sbrk)
+/usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                              /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+errno               0x4               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+buffer              0xa               ./src/main.o
+__lock___at_quick_exit_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MAIN_FLASH       0x0000000000000000 0x0000000000040000 xr
+INFO_FLASH       0x0000000000200000 0x0000000000004000 xr
+SRAM_CODE        0x0000000001000000 0x0000000000010000 xrw
+SRAM_DATA        0x0000000020000000 0x0000000000010000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+LOAD ./src/course1.o
+LOAD ./src/data.o
+LOAD ./src/main.o
+LOAD ./src/memory.o
+LOAD ./src/stats.o
+LOAD ./src/interrupts_msp432p401r_gcc.o
+LOAD ./src/startup_msp432p401r_gcc.o
+LOAD ./src/system_msp432p401r.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x0000000000000000                PROVIDE (_intvecs_base_address = DEFINED (_intvecs_base_address)?_intvecs_base_address:0x0)
+
+.intvecs        0x0000000000000000      0x140
+ *(.intvecs)
+ .intvecs       0x0000000000000000      0x140 ./src/startup_msp432p401r_gcc.o
+                0x0000000000000000                interruptVectors
+                0x0000000000200000                PROVIDE (_mailbox_base_address = 0x200000)
+
+.flashMailbox
+ *(.flashMailbox)
+                0x0000000000201000                PROVIDE (_tlv_base_address = 0x201000)
+
+.tlvTable
+ *(.tlvTable)
+                0x0000000000202000                PROVIDE (_bsl_base_address = 0x202000)
+
+.bslArea
+ *(.bslArea)
+                0x0000000020000000                PROVIDE (_vtable_base_address = DEFINED (_vtable_base_address)?_vtable_base_address:0x20000000)
+
+.vtable
+ *(.vtable)
+
+.text           0x0000000000000140     0x1c28
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x0000000000000140        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .text          0x0000000000000140       0x88 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .text          0x00000000000001c8       0x68 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x00000000000001c8                _mainCRTStartup
+                0x00000000000001c8                _start
+ .text          0x0000000000000230      0x4ec ./src/course1.o
+                0x0000000000000230                test_data1
+                0x000000000000028c                test_data2
+                0x00000000000002e8                test_memmove1
+                0x000000000000037c                test_memmove2
+                0x0000000000000410                test_memmove3
+                0x00000000000004a6                test_memcopy
+                0x000000000000053a                test_memset
+                0x00000000000005ee                test_reverse
+                0x00000000000006a0                course1
+ .text          0x000000000000071c      0x154 ./src/data.o
+                0x000000000000071c                my_itoa
+                0x00000000000007f8                my_atoi
+ .text          0x0000000000000870       0xb4 ./src/main.o
+                0x0000000000000870                main
+ .text          0x0000000000000924      0x274 ./src/memory.o
+                0x0000000000000924                set_value
+                0x0000000000000948                clear_value
+                0x0000000000000964                get_value
+                0x0000000000000982                set_all
+                0x00000000000009b8                clear_all
+                0x00000000000009d4                my_memmove
+                0x0000000000000a50                my_memcopy
+                0x0000000000000a92                my_memset
+                0x0000000000000ace                my_memzero
+                0x0000000000000b06                my_reverse
+                0x0000000000000b62                reserve_words
+                0x0000000000000b82                free_words
+ .text          0x0000000000000b98      0x26c ./src/stats.o
+                0x0000000000000b98                main_stats
+                0x0000000000000c08                print_statistics
+                0x0000000000000c22                print_array
+                0x0000000000000c38                sort_array
+                0x0000000000000cb2                find_median
+                0x0000000000000d14                find_mean
+                0x0000000000000d5a                find_maximum
+                0x0000000000000dae                find_minimum
+ .text          0x0000000000000e04        0x0 ./src/interrupts_msp432p401r_gcc.o
+ .text          0x0000000000000e04        0x0 ./src/startup_msp432p401r_gcc.o
+ .text          0x0000000000000e04      0x370 ./src/system_msp432p401r.o
+                0x0000000000000e04                SystemCoreClockUpdate
+                0x00000000000010f4                SystemInit
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .text          0x0000000000001174        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.text.*)
+ .text.atexit   0x0000000000001174        0xc /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                0x0000000000001174                atexit
+ .text.exit     0x0000000000001180       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                0x0000000000001180                exit
+ .text.__libc_fini_array
+                0x00000000000011a0       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                0x00000000000011a0                __libc_fini_array
+ .text.__libc_init_array
+                0x00000000000011d4       0x48 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                0x00000000000011d4                __libc_init_array
+ .text.malloc   0x000000000000121c       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+                0x000000000000121c                malloc
+ .text.free     0x000000000000122c       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+                0x000000000000122c                free
+ .text._malloc_r
+                0x000000000000123c      0x56c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x000000000000123c                _malloc_r
+ .text.memset   0x00000000000017a8       0x94 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                0x00000000000017a8                memset
+ .text.__malloc_lock
+                0x000000000000183c        0xc /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+                0x000000000000183c                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000001848        0xc /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+                0x0000000000001848                __malloc_unlock
+ .text._sbrk_r  0x0000000000001854       0x24 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+                0x0000000000001854                _sbrk_r
+ .text.__register_exitproc
+                0x0000000000001878       0x88 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                0x0000000000001878                __register_exitproc
+ .text.startup.register_fini
+                0x0000000000001900       0x14 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000001914       0xb0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000000001914                __call_exitprocs
+ .text._malloc_trim_r
+                0x00000000000019c4       0xa0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+                0x00000000000019c4                _malloc_trim_r
+ .text._free_r  0x0000000000001a64      0x1e8 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+                0x0000000000001a64                _free_r
+ .text.__retarget_lock_init
+                0x0000000000001c4c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c4c                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0x0000000000001c50        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c50                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0x0000000000001c54        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c54                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0x0000000000001c58        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c58                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0x0000000000001c5c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c5c                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000001c60        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c60                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0x0000000000001c64        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c64                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000001c68        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c68                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0x0000000000001c6c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c6c                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0x0000000000001c70        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000001c70                __retarget_lock_release_recursive
+ .text.cleanup_glue
+                0x0000000000001c74       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                0x0000000000001c74                cleanup_glue
+ .text._reclaim_reent
+                0x0000000000001c9c       0x88 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                0x0000000000001c9c                _reclaim_reent
+ .text._sbrk    0x0000000000001d24       0x1c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+                0x0000000000001d24                _sbrk
+ .text._exit    0x0000000000001d40        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                0x0000000000001d40                _exit
+                0x0000000000001d44                . = ALIGN (0x4)
+ *(.ctors)
+                0x0000000000001d44                . = ALIGN (0x4)
+ *(.dtors)
+                0x0000000000001d44                . = ALIGN (0x4)
+                0x0000000000001d44                __init_array_start = .
+ *(.init_array*)
+ .init_array    0x0000000000001d44        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .init_array.00000
+                0x0000000000001d48        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000000001d4c                __init_array_end = .
+ *(.init)
+ .init          0x0000000000001d4c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000001d4c                _init
+ .init          0x0000000000001d50        0x8 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.fini*)
+ .fini          0x0000000000001d58        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000001d58                _fini
+ .fini_array    0x0000000000001d5c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini          0x0000000000001d60        0x8 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+
+.glue_7         0x0000000000001d68        0x0
+ .glue_7        0x0000000000001d68        0x0 linker stubs
+
+.glue_7t        0x0000000000001d68        0x0
+ .glue_7t       0x0000000000001d68        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000001d68        0x0
+ .vfp11_veneer  0x0000000000001d68        0x0 linker stubs
+
+.v4_bx          0x0000000000001d68        0x0
+ .v4_bx         0x0000000000001d68        0x0 linker stubs
+
+.iplt           0x0000000000001d68        0x0
+ .iplt          0x0000000000001d68        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.text:Reset_Handler
+                0x0000000000001d68       0x6c
+ .text:Reset_Handler
+                0x0000000000001d68       0x6c ./src/interrupts_msp432p401r_gcc.o
+                0x0000000000001d68                Reset_Handler
+
+.text:NMI_Handler
+                0x0000000000001dd4        0xe
+ .text:NMI_Handler
+                0x0000000000001dd4        0xe ./src/interrupts_msp432p401r_gcc.o
+                0x0000000000001dd4                NMI_Handler
+
+.text:HardFault_Handler
+                0x0000000000001de2        0xe
+ .text:HardFault_Handler
+                0x0000000000001de2        0xe ./src/interrupts_msp432p401r_gcc.o
+                0x0000000000001de2                HardFault_Handler
+
+.text:Default_Handler
+                0x0000000000001df0        0xe
+ .text:Default_Handler
+                0x0000000000001df0        0xe ./src/interrupts_msp432p401r_gcc.o
+                0x0000000000001df0                CS_IRQHandler
+                0x0000000000001df0                DebugMon_Handler
+                0x0000000000001df0                AES256_IRQHandler
+                0x0000000000001df0                SysTick_Handler
+                0x0000000000001df0                PendSV_Handler
+                0x0000000000001df0                RTC_C_IRQHandler
+                0x0000000000001df0                PORT1_IRQHandler
+                0x0000000000001df0                FPU_IRQHandler
+                0x0000000000001df0                PORT2_IRQHandler
+                0x0000000000001df0                TA3_0_IRQHandler
+                0x0000000000001df0                UsageFault_Handler
+                0x0000000000001df0                DMA_INT3_IRQHandler
+                0x0000000000001df0                TA2_0_IRQHandler
+                0x0000000000001df0                DMA_INT1_IRQHandler
+                0x0000000000001df0                WDT_A_IRQHandler
+                0x0000000000001df0                TA2_N_IRQHandler
+                0x0000000000001df0                TA1_0_IRQHandler
+                0x0000000000001df0                PSS_IRQHandler
+                0x0000000000001df0                DMA_INT2_IRQHandler
+                0x0000000000001df0                EUSCIA3_IRQHandler
+                0x0000000000001df0                DMA_INT0_IRQHandler
+                0x0000000000001df0                PORT4_IRQHandler
+                0x0000000000001df0                PORT5_IRQHandler
+                0x0000000000001df0                EUSCIB0_IRQHandler
+                0x0000000000001df0                Default_Handler
+                0x0000000000001df0                T32_INTC_IRQHandler
+                0x0000000000001df0                TA3_N_IRQHandler
+                0x0000000000001df0                TA0_0_IRQHandler
+                0x0000000000001df0                EUSCIA2_IRQHandler
+                0x0000000000001df0                PORT6_IRQHandler
+                0x0000000000001df0                PORT3_IRQHandler
+                0x0000000000001df0                MemManage_Handler
+                0x0000000000001df0                SVC_Handler
+                0x0000000000001df0                TA1_N_IRQHandler
+                0x0000000000001df0                EUSCIA1_IRQHandler
+                0x0000000000001df0                COMP_E1_IRQHandler
+                0x0000000000001df0                EUSCIB2_IRQHandler
+                0x0000000000001df0                FLCTL_IRQHandler
+                0x0000000000001df0                EUSCIB3_IRQHandler
+                0x0000000000001df0                T32_INT1_IRQHandler
+                0x0000000000001df0                ADC14_IRQHandler
+                0x0000000000001df0                DMA_ERR_IRQHandler
+                0x0000000000001df0                EUSCIA0_IRQHandler
+                0x0000000000001df0                BusFault_Handler
+                0x0000000000001df0                PCM_IRQHandler
+                0x0000000000001df0                TA0_N_IRQHandler
+                0x0000000000001df0                COMP_E0_IRQHandler
+                0x0000000000001df0                EUSCIB1_IRQHandler
+                0x0000000000001df0                T32_INT2_IRQHandler
+
+.rodata         0x0000000000001e00       0x4c
+ *(.rodata)
+ .rodata        0x0000000000001e00       0x20 ./src/course1.o
+ .rodata        0x0000000000001e20       0x28 ./src/stats.o
+ *(.rodata.*)
+ .rodata._global_impure_ptr
+                0x0000000000001e48        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000000001e48                _global_impure_ptr
+
+.eh_frame       0x0000000000001e4c        0x4
+ .eh_frame      0x0000000000001e4c        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x0000000000001e4c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.ARM.exidx      0x0000000000001e50        0x8
+                0x0000000000001e50                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000001e50        0x8 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x0000000000001e58                __exidx_end = .
+
+.ARM.extab      0x0000000000001e58        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x0000000000001e58        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x0000000000001e58                __etext = .
+
+.rel.dyn        0x0000000000001e58        0x0
+ .rel.iplt      0x0000000000001e58        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.data           0x0000000020000000      0x84c load address 0x0000000000001e58
+                0x0000000000001e58                __data_load__ = LOADADDR (.data)
+                0x0000000020000000                __data_start__ = .
+ *(.data)
+ .data          0x0000000020000000        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .data          0x0000000020000000        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x0000000020000000                __dso_handle
+ .data          0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .data          0x0000000020000004        0x0 ./src/course1.o
+ .data          0x0000000020000004        0x0 ./src/data.o
+ .data          0x0000000020000004        0x0 ./src/main.o
+ .data          0x0000000020000004        0x0 ./src/memory.o
+ .data          0x0000000020000004        0x0 ./src/stats.o
+ .data          0x0000000020000004        0x0 ./src/interrupts_msp432p401r_gcc.o
+ .data          0x0000000020000004        0x0 ./src/startup_msp432p401r_gcc.o
+ .data          0x0000000020000004        0x4 ./src/system_msp432p401r.o
+                0x0000000020000004                SystemCoreClock
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .data          0x0000000020000008        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.data*)
+ .data._impure_ptr
+                0x0000000020000008        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000020000008                _impure_ptr
+ *fill*         0x000000002000000c        0x4 
+ .data.impure_data
+                0x0000000020000010      0x428 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .data.__malloc_av_
+                0x0000000020000438      0x408 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000438                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x0000000020000840        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000840                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x0000000020000844        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000844                __malloc_trim_threshold
+ .data.__atexit_recursive_mutex
+                0x0000000020000848        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000020000848                __atexit_recursive_mutex
+                0x000000002000084c                . = ALIGN (0x4)
+                0x000000002000084c                __data_end__ = .
+
+.tm_clone_table
+                0x000000002000084c        0x0 load address 0x00000000000026a4
+ .tm_clone_table
+                0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .tm_clone_table
+                0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.igot.plt       0x000000002000084c        0x0 load address 0x00000000000026a4
+ .igot.plt      0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.bss            0x000000002000084c       0x88
+                0x000000002000084c                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .bss           0x000000002000084c       0x1c /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .bss           0x0000000020000868        0x0 ./src/course1.o
+ .bss           0x0000000020000868        0x0 ./src/data.o
+ .bss           0x0000000020000868        0x0 ./src/main.o
+ .bss           0x0000000020000868        0x0 ./src/memory.o
+ .bss           0x0000000020000868        0x0 ./src/stats.o
+ .bss           0x0000000020000868        0x0 ./src/interrupts_msp432p401r_gcc.o
+ .bss           0x0000000020000868        0x0 ./src/startup_msp432p401r_gcc.o
+ .bss           0x0000000020000868        0x0 ./src/system_msp432p401r.o
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .bss           0x0000000020000868        0x0 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.bss.*)
+ .bss.__malloc_current_mallinfo
+                0x0000000020000868       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000868                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x0000000020000890        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000890                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x0000000020000894        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000894                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x0000000020000898        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                0x0000000020000898                __malloc_top_pad
+ .bss.heap_end.5377
+                0x000000002000089c        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x00000000200008a0        0xa ./src/main.o
+                0x00000000200008a0                buffer
+ *fill*         0x00000000200008aa        0x2 
+ COMMON         0x00000000200008ac       0x21 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000200008ac                __lock___atexit_recursive_mutex
+                0x00000000200008b0                __lock___arc4random_mutex
+                0x00000000200008b4                __lock___env_recursive_mutex
+                0x00000000200008b8                __lock___sinit_recursive_mutex
+                0x00000000200008bc                __lock___malloc_recursive_mutex
+                0x00000000200008c0                __lock___at_quick_exit_mutex
+                0x00000000200008c4                __lock___dd_hash_mutex
+                0x00000000200008c8                __lock___tz_mutex
+                0x00000000200008cc                __lock___sfp_recursive_mutex
+ *fill*         0x00000000200008cd        0x3 
+ COMMON         0x00000000200008d0        0x4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                0x00000000200008d0                errno
+                0x00000000200008d4                . = ALIGN (0x4)
+                0x00000000200008d4                __bss_end__ = .
+
+.heap           0x00000000200008d4        0x0
+                0x00000000200008d4                __heap_start__ = .
+                0x00000000200008d4                end = __heap_start__
+                0x00000000200008d4                _end = end
+                0x00000000200008d4                __end = end
+ *(.heap)
+                0x00000000200008d4                __heap_end__ = .
+                0x00000000200008d4                __HeapLimit = __heap_end__
+
+.stack          0x00000000200008d8        0x0
+                0x00000000200008d8                _stack = .
+                0x00000000200008d8                __stack = .
+ *(.stack)
+OUTPUT(c1m4.out elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000056       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000076       0x39 ./src/course1.o
+ .ARM.attributes
+                0x00000000000000af       0x39 ./src/data.o
+ .ARM.attributes
+                0x00000000000000e8       0x39 ./src/main.o
+ .ARM.attributes
+                0x0000000000000121       0x39 ./src/memory.o
+ .ARM.attributes
+                0x000000000000015a       0x39 ./src/stats.o
+ .ARM.attributes
+                0x0000000000000193       0x39 ./src/interrupts_msp432p401r_gcc.o
+ .ARM.attributes
+                0x00000000000001cc       0x39 ./src/startup_msp432p401r_gcc.o
+ .ARM.attributes
+                0x0000000000000205       0x39 ./src/system_msp432p401r.o
+ .ARM.attributes
+                0x000000000000023e       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000272       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000002a6       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000002da       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000030e       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000342       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000000000000376       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000000000003aa       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000003de       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000412       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000446       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000000000000047a       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000000004ae       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000000000004e2       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000516       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000054a       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x000000000000057e       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000000005b2       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .ARM.attributes
+                0x00000000000005e6       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtn.o
+
+.comment        0x0000000000000000       0x42
+ .comment       0x0000000000000000       0x21 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                                         0x22 (size before relaxing)
+ .comment       0x0000000000000021       0x22 ./src/course1.o
+ .comment       0x0000000000000021       0x22 ./src/data.o
+ .comment       0x0000000000000021       0x22 ./src/main.o
+ .comment       0x0000000000000021       0x22 ./src/memory.o
+ .comment       0x0000000000000021       0x22 ./src/stats.o
+ .comment       0x0000000000000021       0x22 ./src/interrupts_msp432p401r_gcc.o
+ .comment       0x0000000000000021       0x22 ./src/startup_msp432p401r_gcc.o
+ .comment       0x0000000000000021       0x22 ./src/system_msp432p401r.o
+ .comment       0x0000000000000021       0x21 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                                         0x22 (size before relaxing)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .comment       0x0000000000000042       0x22 /usr/lib/gcc/arm-none-eabi/7.4.0/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.debug_line     0x0000000000000000     0x2262
+ .debug_line    0x0000000000000000       0x87 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .debug_line    0x0000000000000087      0x283 ./src/course1.o
+ .debug_line    0x000000000000030a      0x13b ./src/data.o
+ .debug_line    0x0000000000000445      0x155 ./src/main.o
+ .debug_line    0x000000000000059a      0x1b3 ./src/memory.o
+ .debug_line    0x000000000000074d      0x128 ./src/stats.o
+ .debug_line    0x0000000000000875      0x100 ./src/interrupts_msp432p401r_gcc.o
+ .debug_line    0x0000000000000975       0xa1 ./src/startup_msp432p401r_gcc.o
+ .debug_line    0x0000000000000a16      0x17a ./src/system_msp432p401r.o
+ .debug_line    0x0000000000000b90      0x147 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000cd7      0x158 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_line    0x0000000000000e2f       0xa5 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_line    0x0000000000000ed4       0xe7 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .debug_line    0x0000000000000fbb       0xbf /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_line    0x000000000000107a      0x159 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_line    0x00000000000011d3      0x39a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_line    0x000000000000156d      0x1de /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_line    0x000000000000174b      0x14a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_line    0x0000000000001895      0x150 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_line    0x00000000000019e5      0x16e /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000001b53      0x19b /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000001cee      0x277 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_line    0x0000000000001f65       0xba /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_line    0x000000000000201f      0x181 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_line    0x00000000000021a0       0x61 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_line    0x0000000000002201       0x61 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_info     0x0000000000000000     0xc7a4
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .debug_info    0x0000000000000026      0xc35 ./src/course1.o
+ .debug_info    0x0000000000000c5b      0x9c2 ./src/data.o
+ .debug_info    0x000000000000161d      0x927 ./src/main.o
+ .debug_info    0x0000000000001f44      0xc10 ./src/memory.o
+ .debug_info    0x0000000000002b54      0xada ./src/stats.o
+ .debug_info    0x000000000000362e      0x10e ./src/interrupts_msp432p401r_gcc.o
+ .debug_info    0x000000000000373c       0xac ./src/startup_msp432p401r_gcc.o
+ .debug_info    0x00000000000037e8      0xd0c ./src/system_msp432p401r.o
+ .debug_info    0x00000000000044f4      0x917 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_info    0x0000000000004e0b      0x94c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_info    0x0000000000005757       0xf3 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_info    0x000000000000584a      0x8b4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .debug_info    0x00000000000060fe      0x109 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_info    0x0000000000006207      0x931 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_info    0x0000000000006b38      0xe19 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_info    0x0000000000007951      0xe2d /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_info    0x000000000000877e      0x91d /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_info    0x000000000000909b      0x96a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000009a05      0x975 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_info    0x000000000000a37a      0x9da /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_info    0x000000000000ad54      0xccd /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_info    0x000000000000ba21      0x221 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_info    0x000000000000bc42      0xa38 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_info    0x000000000000c67a       0x90 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_info    0x000000000000c70a       0x9a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x29dc
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .debug_abbrev  0x0000000000000014      0x238 ./src/course1.o
+ .debug_abbrev  0x000000000000024c      0x1f0 ./src/data.o
+ .debug_abbrev  0x000000000000043c      0x1df ./src/main.o
+ .debug_abbrev  0x000000000000061b      0x224 ./src/memory.o
+ .debug_abbrev  0x000000000000083f      0x218 ./src/stats.o
+ .debug_abbrev  0x0000000000000a57       0x92 ./src/interrupts_msp432p401r_gcc.o
+ .debug_abbrev  0x0000000000000ae9       0x6d ./src/startup_msp432p401r_gcc.o
+ .debug_abbrev  0x0000000000000b56      0x11b ./src/system_msp432p401r.o
+ .debug_abbrev  0x0000000000000c71      0x201 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000e72      0x1f0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000001062       0xbd /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_abbrev  0x000000000000111f      0x192 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000000012b1       0xba /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_abbrev  0x000000000000136b      0x1ff /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_abbrev  0x000000000000156a      0x2cd /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_abbrev  0x0000000000001837      0x1e7 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000001a1e      0x1e4 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000001c02      0x215 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000001e17      0x21f /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000002036      0x295 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000022cb      0x291 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_abbrev  0x000000000000255c       0xfc /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_abbrev  0x0000000000002658      0x291 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_abbrev  0x00000000000028e9       0x92 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_abbrev  0x000000000000297b       0x61 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_aranges  0x0000000000000000      0x378
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .debug_aranges
+                0x0000000000000020       0x20 ./src/course1.o
+ .debug_aranges
+                0x0000000000000040       0x20 ./src/data.o
+ .debug_aranges
+                0x0000000000000060       0x20 ./src/main.o
+ .debug_aranges
+                0x0000000000000080       0x20 ./src/memory.o
+ .debug_aranges
+                0x00000000000000a0       0x20 ./src/stats.o
+ .debug_aranges
+                0x00000000000000c0       0x38 ./src/interrupts_msp432p401r_gcc.o
+ .debug_aranges
+                0x00000000000000f8       0x18 ./src/startup_msp432p401r_gcc.o
+ .debug_aranges
+                0x0000000000000110       0x20 ./src/system_msp432p401r.o
+ .debug_aranges
+                0x0000000000000130       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000150       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000170       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000000190       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_aranges
+                0x00000000000001c8       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x0000000000000210       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000230       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_aranges
+                0x0000000000000258       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000278       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000298       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000002c0       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_aranges
+                0x00000000000002e8       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_aranges
+                0x0000000000000310       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_aranges
+                0x0000000000000338       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_aranges
+                0x0000000000000358       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_str      0x0000000000000000     0x2029
+ .debug_str     0x0000000000000000       0xa8 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .debug_str     0x00000000000000a8      0x548 ./src/course1.o
+                                        0x61d (size before relaxing)
+ .debug_str     0x00000000000005f0       0x1b ./src/data.o
+                                        0x591 (size before relaxing)
+ .debug_str     0x000000000000060b       0x17 ./src/main.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x0000000000000622       0xb4 ./src/memory.o
+                                        0x60e (size before relaxing)
+ .debug_str     0x00000000000006d6       0x7b ./src/stats.o
+                                        0x59d (size before relaxing)
+ .debug_str     0x0000000000000751       0x9a ./src/interrupts_msp432p401r_gcc.o
+                                        0x1de (size before relaxing)
+ .debug_str     0x00000000000007eb       0x2f ./src/startup_msp432p401r_gcc.o
+                                        0x173 (size before relaxing)
+ .debug_str     0x000000000000081a      0x8ca ./src/system_msp432p401r.o
+                                        0xa72 (size before relaxing)
+ .debug_str     0x00000000000010e4      0x1b7 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                                        0x623 (size before relaxing)
+ .debug_str     0x000000000000129b       0x77 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                                        0x624 (size before relaxing)
+ .debug_str     0x0000000000001312       0xd1 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                                        0x235 (size before relaxing)
+ .debug_str     0x00000000000013e3       0xab /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                                        0x5d8 (size before relaxing)
+ .debug_str     0x000000000000148e       0x93 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                                        0x25f (size before relaxing)
+ .debug_str     0x0000000000001521       0x5a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+                                        0x609 (size before relaxing)
+ .debug_str     0x000000000000157b      0x237 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+                                        0x840 (size before relaxing)
+ .debug_str     0x00000000000017b2      0x319 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                                        0x905 (size before relaxing)
+ .debug_str     0x0000000000001acb       0x9a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+                                        0x668 (size before relaxing)
+ .debug_str     0x0000000000001b65       0x4a /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+                                        0x61b (size before relaxing)
+ .debug_str     0x0000000000001baf       0x3e /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                                        0x685 (size before relaxing)
+ .debug_str     0x0000000000001bed       0x86 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                                        0x6b8 (size before relaxing)
+ .debug_str     0x0000000000001c73       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+                                        0x7b9 (size before relaxing)
+ .debug_str     0x0000000000001ca7      0x1c8 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                                        0x390 (size before relaxing)
+ .debug_str     0x0000000000001e6f       0x61 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+                                        0x614 (size before relaxing)
+ .debug_str     0x0000000000001ed0      0x127 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+                                        0x140 (size before relaxing)
+ .debug_str     0x0000000000001ff7       0x32 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                                        0x1b0 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xa2c
+ .debug_frame   0x0000000000000000      0x158 ./src/course1.o
+ .debug_frame   0x0000000000000158       0x5c ./src/data.o
+ .debug_frame   0x00000000000001b4       0x34 ./src/main.o
+ .debug_frame   0x00000000000001e8      0x1d8 ./src/memory.o
+ .debug_frame   0x00000000000003c0      0x150 ./src/stats.o
+ .debug_frame   0x0000000000000510       0xa0 ./src/interrupts_msp432p401r_gcc.o
+ .debug_frame   0x00000000000005b0       0x58 ./src/system_msp432p401r.o
+ .debug_frame   0x0000000000000608       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000628       0x28 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000650       0x34 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000684       0x2c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_frame   0x00000000000006b0       0x30 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000006e0       0x54 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000000734       0x38 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_frame   0x000000000000076c       0x30 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_frame   0x000000000000079c       0x2c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000007c8       0x30 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000007f8       0x5c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000854       0x80 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_frame   0x00000000000008d4       0xb0 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000984       0x68 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_frame   0x00000000000009ec       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000000a0c       0x20 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_ranges   0x0000000000000000      0x1c0
+ .debug_ranges  0x0000000000000000       0x28 ./src/interrupts_msp432p401r_gcc.o
+ .debug_ranges  0x0000000000000028       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000038       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000048       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_ranges  0x0000000000000058       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_ranges  0x0000000000000068       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_ranges  0x0000000000000080       0x50 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_ranges  0x00000000000000d0       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_ranges  0x00000000000000e0       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_ranges  0x00000000000000f8       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_ranges  0x0000000000000108       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000118       0x40 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000158       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_ranges  0x0000000000000170       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_ranges  0x0000000000000188       0x18 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_ranges  0x00000000000001a0       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
+ .debug_ranges  0x00000000000001b0       0x10 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_loc      0x0000000000000000     0x1aaa
+ .debug_loc     0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000002c       0x1e /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_loc     0x000000000000004a       0x5c /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_loc     0x00000000000000a6       0xa2 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_loc     0x0000000000000148       0x58 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-malloc.o)
+ .debug_loc     0x00000000000001a0      0xd93 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mallocr.o)
+ .debug_loc     0x0000000000000f33      0x175 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_loc     0x00000000000010a8       0x42 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-mlock.o)
+ .debug_loc     0x00000000000010ea       0x4d /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-sbrkr.o)
+ .debug_loc     0x0000000000001137       0xac /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_loc     0x00000000000011e3       0xf7 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00000000000012da      0x612 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-freer.o)
+ .debug_loc     0x00000000000018ec       0x21 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_loc     0x000000000000190d      0x165 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-reent.o)
+ .debug_loc     0x0000000000001a72       0x38 /usr/lib/gcc/arm-none-eabi/7.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(sbrk.o)
