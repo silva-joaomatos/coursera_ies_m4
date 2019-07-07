@@ -127,7 +127,7 @@ int32_t * ptr = malloc(sizeof(size_t)*length);
 
   return ptr;
 }
-/**/
+/*free memory pointed by src*/
 void free_words(uint32_t * src) {
   free(src);
 }
