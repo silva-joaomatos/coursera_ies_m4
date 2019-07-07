@@ -9,9 +9,33 @@
 #
 #*****************************************************************************
 
-# Add your Source files to this variable
-SOURCES =
+# FOR HOST
+ifeq ($(PLATFORM),HOST)
+	SOURCES =                 \
+		./src/main.c        \
+		./src/memory.c      \
+		./src/course1.c     \
+		./src/data.c        \
+		./src/stats.c
+	INCLUDES = -I./include/common/
 
-# Add your include paths to this variable
-INCLUDES = 
+endif
+
+# FOR MSP432
+ifeq ($(PLATFORM),MSP432)
+	SOURCES =		\
+		./src/course1.c \
+        ./src/data.c    \
+        ./src/main.c	\
+		./src/memory.c	\
+        ./src/stats.c   \
+		./src/interrupts_msp432p401r_gcc.c	\
+		./src/startup_msp432p401r_gcc.c	        \
+		./src/system_msp432p401r.c
+	INCLUDES =                    \
+		-I./include/msp432/   \
+		-I./include/common/   \
+		-I./include/CMSIS/
+
+endif
 
