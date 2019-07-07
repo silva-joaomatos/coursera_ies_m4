@@ -23,40 +23,66 @@
 #------------------------------------------------------------------------------
 include sources.mk
 
-# Architecture Specific Flags
-#CPU = cortex-m0plus
-CPU = host
-ARCH = thumb
-#SPECS = nosys.specs
+# Platform Overrides
+PLATFORM = 
+# course switch flags
+ifeq ($(DEBUG),1)
+  CRSFLAGS = -DCOURSE1
+endif
+#verbose switch
+ifeq ($(VERBOSE),1)
+  VERBFLAGS = -DVERBOSE
+endif
 
-# Platform Specific Flags
-LINKER_FILE = MKL25Z128xxx4_flash.ld 
+# Compiler Flags and Defines
+ifeq ($(PLATFORM),HOST)
+	CC = gcc
+	CFLAGS = -Wall -Werror -g -O0 -std=c99
+	LDFLAGS = -Wl,-Map=c1m2.map $(INCLUDES)
+	CPPFLAGS = -DHOST -MD
+endif
 
-# Compile Defines
-#CC = arm-none-eabi-gcc
-CC=gcc
-LD = arm-none-eabi-ld
-TARGET = demo
-LDFLAGS = -Wl,-Map=$(TARGET).map -T $(LINKER_FILE)
-CFLAGS = -mcpu=$(CPU) -m$(ARCH) --specs=$(SPECS) -Wall
+ifeq ($(PLATFORM),MSP432)
+	#Architecture Specific Flags
+	CPU = cortex-m4
+	MODE = thumb
+	LINKER_FILE = msp432p401r.lds
+	LDFLAGS = -Wl,-Map=c1m2.map -T../$(LINKER_FILE) $(INCLUDES)
+	CPPFLAGS = -DMSP432 -MD
+	SPECS = nosys.specs
+	ARCH = armv7e-m
+	FLOATABI = hard
+	FPU = fpv4-sp-d16
+	CC = arm-none-eabi-gcc
+	CFLAGS = -Wall -Werror -g -O0 -std=c99 -mcpu=$(CPU) -m$(MODE) -march=$(ARCH) -mfpu=$(FPU) -mfloat-abi=$(FLOATABI) --specs=$(SPECS)
+endif
 
-OBJS = $(SRCS:.c=.o)
-
+#object files
 %.o : %.c
-	$(CC) -c $< $(CFLAGS) -o $@
+	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -c $< -o $@
+
+#preprocessor output
+%.i : %.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -E $< -o $@
+
+#assembly files
+%.asm : %.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -c $< -o $@
+	objdump -S $@
+
+OBJS = $(SOURCES:.c=.o)
+
+#all object files without compilation
+.PHONY: compile-all
+compile-all: $(SOURCES)
+	$(CC) $(SOURCES) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -c
 
 .PHONY: build
-build: all
-
-.PHONY: all
-all: $(TARGET).out
-
-$(TARGET).out: $(OBJS)
-	$(CC) $(OBJS) $(CFLAGS) $(LDFLAGS) -o $@
+build: c1m2.out
+c1m2.out: $(OBJS)
+	$(CC) $(OBJS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -o $@
+	size c1m2.out
 
 .PHONY: clean
 clean:
-	rm -f $(OBJS) $(TARGET).out $(TARGET).map
-
-
-
+	rm -f  *.asm *.i *.d *.map *.o *.out
