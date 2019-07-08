@@ -21,6 +21,7 @@
  *
  */
 #include "memory.h"
+#include "platform.h"
 
 /***********************************************************
  Function Definitions
@@ -47,17 +48,17 @@ void set_all(char * ptr, char value, unsigned int size){
 void clear_all(char * ptr, unsigned int size){
   set_all(ptr, 0, size);
 }
+
 uint8_t * my_memmove(uint8_t * src, uint8_t * dst, size_t length){
-  uint8_t i;
+  size_t i;
   bool overlap = false;
-/*Overlap exist if destination happens before the end of source*/
-  if ((dst < (src + length))) {
+/*Overlap exist if destination happens before the end of source and src begins before dst*/
+  if ((src < dst)&&(dst < (src + length))) {
     overlap = true;
   }
 /*If there is no overlap -> direct copy*/  
   if (!overlap) {
     my_memcopy (src, dst, length);
-    
   } 
 /*Else copy from end to start to avoid data corruption*/
   else {
@@ -74,18 +75,15 @@ uint8_t * my_memmove(uint8_t * src, uint8_t * dst, size_t length){
 }
 uint8_t * my_memcopy(uint8_t * src, uint8_t * dst, size_t length){
 	uint8_t i;
-
   for (i=0; i<length; i++) {
     *dst = *src;
     dst++;
     src++;
   }
-  
   return dst;
 }
 uint8_t * my_memset(uint8_t * src, size_t length, uint8_t value){
-	uint8_t i;
-
+	size_t i;
   for (i=0; i<length; i++) {
     *src = value;
     src++;
@@ -101,27 +99,28 @@ uint8_t * my_memzero(uint8_t * src, size_t length) {
   }
   return src;
 }
-
+/*Copy left to right to temp, copy temp to the right to left */
 uint8_t * my_reverse(uint8_t * src, size_t length) {
   
-  size_t low, high;
+  size_t start, end;
   uint8_t temp;
 
-  for  (low = 0, high = length - 1; high > low; low++, high--) {
-    temp = *(src + low);
-    *(src + low) = *(src + high);
-    *(src + high) = temp;
+  for  (start = 0, end = length - 1; end > start; start++, end--) {
+    temp = *(src + start);
+    *(src + start) = *(src + end);
+    *(src + end) = temp;
   }
   return src;
 }
 
 int32_t * reserve_words(size_t length) {
   
-int32_t * ptr = malloc(sizeof(size_t)*length);
+	int32_t * ptr = malloc(sizeof(size_t)*length);
 
   if (ptr == NULL) {
 #ifdef VERBOSE
-    PRINTF("Failed!\n");
+    PRINTF("#Failed! - NULL\n");
+	return NULL;
 #endif
   }
 

@@ -15,32 +15,91 @@
  * <Add Extended Description Here>
  *
  * @author Joao Silva
- * @date 02.06.2019
+ * @date 08.07.2019
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-void print_statistics(int min, int max, int mean, int median);
-void print_array(unsigned char *test, int size);
-int find_median(unsigned char *test, int size);
-int find_mean(unsigned char *test, int size);
-int find_maximum(unsigned char *test, int size);
-int find_minimum(unsigned char *test, int size);
-void sort_array(unsigned char test[], int size);
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief <void print_statistics(int min, int max, int mean, int median);>
  *
- * <Add Extended Description Here>
+ * <Print computed statistics>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param <min> <minimum value of array>
+ * @param <max> <maximum value of array>
+ * @param <mean> <mean value of array>
+ * @param <median> <median value of arr>
  *
- * @return <Add Return Informaiton here>
+ * @return <void>
  */
+void print_statistics(int min, int max, int mean, int median);
+/**
+ * @brief <void print_array(unsigned char *test, int size)>
+ *
+ * <Print Array>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+
+ * @return <void>
+ */
+void print_array(unsigned char *test, int size);
+/**
+ * @brief <int find_median(unsigned char *test, int size)>
+ *
+ * <Find median value of array>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+ 
+ * @return <median>
+ */
+int find_median(unsigned char *test, int size);
+/**
+ * @brief <int find_mean(unsigned char *test, int size)>
+ *
+ * <Find mean value of array>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+ 
+ * @return <mean>
+ */
+int find_mean(unsigned char *test, int size);
+/**
+ * @brief <int find_maximum(unsigned char *test, int size)>
+ *
+ * <Find maximum value of array>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+ 
+ * @return <max>
+ */
+int find_maximum(unsigned char *test, int size);
+/**
+ * @brief <int find_minimum(unsigned char *test, int size)>
+ *
+ * <Find minimum value of array>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+ 
+ * @return <min>
+ */
+int find_minimum(unsigned char *test, int size);
+/**
+ * @brief <sort_array(unsigned char test[], int size)>
+ *
+ * <Sort array elements in descending order>
+ *
+ * @param <test> <array to be printed>
+ * @param <size> <number of elements of array>
+ 
+ * @return <array sorted>
+ */
+void sort_array(unsigned char test[], int size);
 
 
 #endif /* __STATS_H__ */

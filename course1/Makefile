@@ -26,7 +26,7 @@ include sources.mk
 # Platform Overrides
 PLATFORM = 
 # course switch flags
-ifeq ($(DEBUG),1)
+ifeq ($(COURSE),1)
   CRSFLAGS = -DCOURSE1
 endif
 #verbose switch
@@ -38,7 +38,7 @@ endif
 ifeq ($(PLATFORM),HOST)
 	CC = gcc
 	CFLAGS = -Wall -Werror -g -O0 -std=c99
-	LDFLAGS = -Wl,-Map=c1m2.map $(INCLUDES)
+	LDFLAGS = -Wl,-Map=c1m4.map $(INCLUDES)
 	CPPFLAGS = -DHOST -MD
 endif
 
@@ -47,7 +47,7 @@ ifeq ($(PLATFORM),MSP432)
 	CPU = cortex-m4
 	MODE = thumb
 	LINKER_FILE = msp432p401r.lds
-	LDFLAGS = -Wl,-Map=c1m4.map -T$(LINKER_FILE) $(INCLUDES)
+	LDFLAGS = -Wl,-Map=c1m4.map $(INCLUDES) -T $(LINKER_FILE) 
 	CPPFLAGS = -DMSP432 -MD
 	SPECS = nosys.specs
 	ARCH = armv7e-m
@@ -59,7 +59,7 @@ endif
 
 #object files
 %.o : %.c
-	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -c $< -o $@
 
 #preprocessor output
 %.i : %.c
@@ -80,9 +80,9 @@ compile-all: $(SOURCES)
 .PHONY: build
 build: c1m4.out
 c1m4.out: $(OBJS)
-	$(CC) $(OBJS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -o $@
+	$(CC) $(OBJS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(VERBFLAGS) $(CRSFLAGS) -o c1m4.out
 	size c1m4.out
 
 .PHONY: clean
 clean:
-	rm -f  src/*.asm src/*.i src/*.d src/*.map src/*.o src/*.out
+	rm -f  src/*.asm src/*.i src/*.d src/*.map src/*.o src/*.out c1m4.map c1m4.out

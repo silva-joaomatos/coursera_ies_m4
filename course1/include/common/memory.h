@@ -95,12 +95,91 @@ void set_all(char * ptr, char value, unsigned int size);
  * @return void.
  */
 void clear_all(char * ptr, unsigned int size);
+/**
+ * @brief Moves memory to destination
+ *
+ * Given a source and destination positions, moves memory pointed by 
+ * source to destination
+ *
+ * @param src Pointer to data source
+ * @param dst Pointer to data destination
+ * @param length Size of memory to move
+ *
+ * @return pointer to destination.
+ */
 uint8_t * my_memmove(uint8_t * src, uint8_t * dst, size_t length);
+/**
+ * @brief Copies memory to destination
+ *
+ * Given a source and destination positions, copies memory pointed by 
+ * source to destination
+ *
+ * @param src Pointer to data source
+ * @param dst Pointer to data destination
+ * @param length Size of memory to move
+ *
+ * @return pointer to destination.
+ */
 uint8_t * my_memcopy(uint8_t * src, uint8_t * dst, size_t length);
+/**
+ * @brief Sets all memory position to value
+ *
+ * Given a source, number of positions and value,  
+ * Sets all memory position to specified value
+ *
+ * @param src Pointer to data source
+ * @param value Value to set
+ * @param length Size of memory to move
+ *
+ * @return pointer to source.
+ */
 uint8_t * my_memset(uint8_t * src, size_t length, uint8_t value);
+/**
+ * @brief Sets all memory position to value
+ *
+ * Given a source, number of positions,  
+ * Sets all memory position to 0
+ *
+ * @param src Pointer to data source
+ * @param length Size of memory to move
+ *
+ * @return pointer to source.
+ */
 uint8_t * my_memzero(uint8_t * src, size_t length);
+/**
+ * @brief Sets all memory position to value
+ *
+ * Given a source, number of positions,  
+ * Sets all memory position to 0
+ *
+ * @param src Pointer to data source
+ * @param length Size of memory to move
+ *
+ * @return pointer to source.
+ */
 uint8_t * my_reverse(uint8_t * src, size_t length);
+/**
+ * @brief Reverse order of memory
+ *
+ * Given a source, number of positions,  
+ * Reverse the indexes of memory
+ *
+ * @param src Pointer to data source
+ * @param length Size of memory to move
+ *
+ * @return pointer to source.
+ */
 int32_t * reserve_words(size_t length);
+/**
+ * @brief Allocates memory 
+ *
+ * Given a specified length  
+ * Allocates memory of (sizeof(size_t)*length)
+ *
+ * @param length number of bytes to allocate
+ *
+ * @return pointer to allocated memory
+ */
 void free_words(uint32_t * src);
 
 #endif /* __MEMORY_H__ */

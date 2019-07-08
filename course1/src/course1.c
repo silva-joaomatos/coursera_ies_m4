@@ -35,7 +35,8 @@ int8_t test_data1() {
 
   if (! ptr )
   {
-    return TEST_ERROR;
+	return TEST_ERROR;
+
   }
 
   digits = my_itoa( num, ptr, BASE_16);   
@@ -48,7 +49,7 @@ int8_t test_data1() {
 
   if ( value != num )
   {
-    return TEST_ERROR;
+	return TEST_ERROR;
   }
   return TEST_NO_ERROR;
 }
@@ -339,6 +340,12 @@ void course1(void)
   for ( i = 0; i < TESTCOUNT; i++) 
   {
     failed += results[i];
+	#ifdef VERBOSE
+	if(results[i] == TEST_ERROR)
+	{
+		PRINTF("ERR TEST[%d]\n", i);
+	}
+	#endif
   }
 
   PRINTF("--------------------------------\n");

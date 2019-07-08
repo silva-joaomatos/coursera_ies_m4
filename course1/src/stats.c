@@ -15,12 +15,14 @@
  * <Add Extended Description Here>
  *
  * @author Joao Silva
- * @date 02.06.2019
+ * @date 08.07.2019
  *
  */
 #include <stdio.h>
+#include "platform.h"
+#include "memory.h"
+#include "course1.h"
 #include "stats.h"
-
 /* Size of the Data Set */
 #define SIZE (40)
 
@@ -33,18 +35,16 @@ void main_stats() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  //int min =0;int max =0; int mean=0; int median=0;
+  int min =0;int max =0; int mean=0; int median=0;
   /* Statistics and Printing Functions Go Here */
 	print_array(test, SIZE); //print unsorted
 	sort_array(test, SIZE); 
 	print_array(test, SIZE); //print sorted for debug
-	find_mean(test, SIZE);
-	find_median(test, SIZE);
-	find_maximum(test, SIZE);
-	find_minimum(test, SIZE);
-#ifdef VERBOSE
+	mean=find_mean(test, SIZE);
+	median=find_median(test, SIZE);
+	max=find_maximum(test, SIZE);
+	min=find_minimum(test, SIZE);
 	print_statistics(min,max,mean,median);
-#endif
 }
 
 /* Add other Implementation File Code Here */
@@ -58,11 +58,9 @@ void print_statistics(int min, int max, int mean, int median){
 }
 void print_array(unsigned char *test, int size){
 #ifdef VERBOSE
-    int i=0;
-	for(i;i<size;i++) {
-
-		PRINTF("test[%d]=%d\n",i,test[i]);
-
+   
+	for(int i=0;i<size;i++) {
+		//printf("test[%d]=%d ",i,test[i]);
 	}
 #endif
 }
