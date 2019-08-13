@@ -25,6 +25,8 @@ include sources.mk
 
 # Platform Overrides
 PLATFORM = 
+COURSE := 1
+VERBOSE := 1
 # course switch flags
 ifeq ($(COURSE),1)
   CRSFLAGS = -DCOURSE1
